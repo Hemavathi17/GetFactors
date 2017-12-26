@@ -14,6 +14,9 @@
 		328837DF1FEE183F00AD79BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 328837DD1FEE183F00AD79BB /* LaunchScreen.storyboard */; };
 		328837EA1FEE184400AD79BB /* GetFactorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328837E91FEE184400AD79BB /* GetFactorsTests.swift */; };
 		328837F51FEE184500AD79BB /* GetFactorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328837F41FEE184500AD79BB /* GetFactorsUITests.swift */; };
+		328838031FEE219000AD79BB /* GetFactorsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328838021FEE219000AD79BB /* GetFactorsVC.swift */; };
+		328838061FEE2F1600AD79BB /* FactorsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328838041FEE2F1600AD79BB /* FactorsCollectionCell.swift */; };
+		328838071FEE2F1600AD79BB /* FactorsCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 328838051FEE2F1600AD79BB /* FactorsCollectionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		328837F01FEE184500AD79BB /* GetFactorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetFactorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		328837F41FEE184500AD79BB /* GetFactorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFactorsUITests.swift; sourceTree = "<group>"; };
 		328837F61FEE184500AD79BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		328838021FEE219000AD79BB /* GetFactorsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GetFactorsVC.swift; path = GetFactorsVC/GetFactorsVC.swift; sourceTree = "<group>"; };
+		328838041FEE2F1600AD79BB /* FactorsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorsCollectionCell.swift; sourceTree = "<group>"; };
+		328838051FEE2F1600AD79BB /* FactorsCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FactorsCollectionCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				328837DB1FEE183F00AD79BB /* Assets.xcassets */,
 				328837DD1FEE183F00AD79BB /* LaunchScreen.storyboard */,
 				328837E01FEE183F00AD79BB /* Info.plist */,
+				328838021FEE219000AD79BB /* GetFactorsVC.swift */,
+				328838041FEE2F1600AD79BB /* FactorsCollectionCell.swift */,
+				328838051FEE2F1600AD79BB /* FactorsCollectionCell.xib */,
 			);
 			path = GetFactors;
 			sourceTree = "<group>";
@@ -232,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				328838071FEE2F1600AD79BB /* FactorsCollectionCell.xib in Resources */,
 				328837DF1FEE183F00AD79BB /* LaunchScreen.storyboard in Resources */,
 				328837DC1FEE183F00AD79BB /* Assets.xcassets in Resources */,
 				328837DA1FEE183F00AD79BB /* Main.storyboard in Resources */,
@@ -259,6 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				328838061FEE2F1600AD79BB /* FactorsCollectionCell.swift in Sources */,
+				328838031FEE219000AD79BB /* GetFactorsVC.swift in Sources */,
 				328837D71FEE183E00AD79BB /* ViewController.swift in Sources */,
 				328837D51FEE183E00AD79BB /* AppDelegate.swift in Sources */,
 			);
